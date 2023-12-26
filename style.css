@@ -1,0 +1,30 @@
+.container{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-rows: 100px 200px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 40px;
+}
+
+.item {
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
+
+.containerReto{
+    border: 5px solid #359011;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-auto-columns: 150px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.itemReto {
+    border: 5px solid #f9fbfb;
+    font-size: 4rem;
+    background-color: #1b9736;
+}
