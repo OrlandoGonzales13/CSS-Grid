@@ -1,0 +1,42 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(13,2,63);
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-auto-rows: 400px;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.info{
+    align-self: center;
+}
+
+.info-btn{
+    font-size: 1rem;
+    border: 1px oslid orangered;
+    border-radius: 1.5rem;
+    color: lavender;
+    background-color: orangered;
+    padding: 10px 20px
+
+}
