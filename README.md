@@ -32,4 +32,34 @@ Si queremos activar la cuadrícula grid hay que habilitarla modificando el valor
 
 Una vez definido esto podemos empezar a trabajar con nuestras cuadrículas.
 
+## Grid con Filas y Columnas
+Se puede establecer un tamaño fijo para la cuadrícula. Para ello podemos hacer uso de las propiedades CSS grid-template-columns y grid-template-rows, que sirven para indicar las dimensiones de cada celda de la cuadrícula, diferenciando entre columnas y filas.
+
+Esto en código sería lo siguiente:
+
+    section {
+    		display: grid;
+    	  grid-template-columns: 50px 300px;
+    	  grid-template-rows: 200px 75px;
+    }
+
+El código anterior se traduce como que tendremos una cuadrícula con dos columnas (la primera con 50px de ancho y la segunda con 300px) y con dos filas (la primera con 200px de alto y la segunda con 75px).
+
+![](https://static.platzi.com/media/user_upload/2-eaec82d5-e3da-457b-9626-23619dd03fdc.jpg)
+
+## Grid con Filas y Columnas
+Se puede establecer un tamaño fijo para la cuadrícula. Para ello podemos hacer uso de las propiedades CSS grid-template-columns y grid-template-rows, que sirven para indicar las dimensiones de cada celda de la cuadrícula, diferenciando entre columnas y filas.
+
+Esto en código sería lo siguiente:
+
+    section {
+    		display: grid;
+    	  grid-template-columns: 50px 300px;
+    	  grid-template-rows: 200px 75px;
+    }
+
+El código anterior se traduce como que tendremos una cuadrícula con dos columnas (la primera con 50px de ancho y la segunda con 300px) y con dos filas (la primera con 200px de alto y la segunda con 75px).
+
+![](https://static.platzi.com/media/user_upload/2-eaec82d5-e3da-457b-9626-23619dd03fdc.jpg)
+
 
