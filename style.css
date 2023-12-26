@@ -180,3 +180,34 @@ el tamaño de las columnas */
     border: 5px solid #00bcd4;
     font-size: 2rem;
 }
+
+/*-----------FKEYWORDS ESPECIALES-------------*/
+
+/* fr : Es una unidad de medida especial de css grid para darle ancho o alto 
+a filas y columnas 1fr representa una fraccion del total de columnas o filas.
+
+min-content : Ajusta el ancho de la celda lo mínimo posible sin romper su contenido.
+max-content : Ajusta el ancho de la celda lo máximo posible para mostrar su contenido.
+auto-fill : Agrega columnas “fantasma” que rellenan el espacio sobrante del contenedor.
+auto-fit : Ensancha las columnas para que ocupen todo el espacio del contenedor.
+auto-fill y auto-fit ayudan a la grilla a ocupar el 100% del espacio disponible */
+
+.containerKE{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.itemKE {
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}
+
+.containerKE2{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
+}
