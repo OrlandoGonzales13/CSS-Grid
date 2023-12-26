@@ -157,3 +157,26 @@
 .itemUbicacionReto-7{
     background-color: #66c00b;
 }
+
+/*-----------FUNCIONES ESPECIALES-------------*/
+
+/* minmax: ayuda a declarar el tamaño minimo y maximo 
+para el ancho y alto de una celda, sin depender del 
+contenido que tengamos en ella
+
+repeat : se usa cuando todas las columnas o 
+ilas tienen el msmo ancho y evitar repetir 
+el tamaño de las columnas */
+
+.containerFE{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: minmax(30px,300px) 200px minmax(60px, 250px);
+    grid-template-rows: repeat(3, auto);
+}
+
+.itemFE {
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}
