@@ -29,6 +29,8 @@
     background-color: #1b9736;
 }
 
+/*-----------ALINEACION-------------*/
+
 .containerAlineacion{
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
@@ -54,6 +56,8 @@
     align-self: end;
 }
 
+/*-----------ALINEACION RETO-------------*/
+
 .containerAlineacionReto{
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
@@ -69,4 +73,87 @@
 .itemAlineacionReto{
     border: 5px solid #00bcd4;
     font-size: 4rem;
+}
+
+/*-----------UBICACION-------------*/
+
+.containerUbicacion{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px;
+    grid-template-areas: 
+        "header header header"
+        "side main main"
+        "side main main";
+    place-content: center;
+}
+
+.itemUbicacion {
+    font-size: 4rem;
+}
+
+.itemUbicacion-1{
+    border: 5px solid #f8bbd0;
+    background-color: #ffeeff;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-area: header;
+}
+
+.itemUbicacion-2{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    /* grid-row: 2 / 4; */
+    grid-area: side;
+}
+
+.itemUbicacion-3{
+    border: 5px solid #b2ebf2;
+    background-color: #e5ffff;
+    /* grid-area: 2 / 2 / 4 / 4; */
+    grid-area: main;
+}
+
+.containerUbicacionReto{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 200px;
+    grid-auto-flow: row;
+    place-content: center;
+}
+
+.itemUbicacionReto{
+    font-size: 4rem;
+}
+
+/*-----------UBICACION RETO-------------*/
+
+.itemUbicacionReto-1{
+    background-color: #89d631;
+    grid-column: 1/2;
+}
+.itemUbicacionReto-2{
+    background-color: #419f00;
+    grid-column: 2/4;
+}
+.itemUbicacionReto-3{
+    background-color: #5ab507;
+    grid-column: 1/3;
+}
+.itemUbicacionReto-4{
+    background-color: #c7eb7a;
+    grid-column: 3/4;
+}
+.itemUbicacionReto-5{
+    background-color: #72cb10
+}
+.itemUbicacionReto-6{
+    background-color: #ffffbb;
+}
+.itemUbicacionReto-7{
+    background-color: #66c00b;
 }
