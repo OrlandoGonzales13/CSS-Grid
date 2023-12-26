@@ -28,3 +28,45 @@
     font-size: 4rem;
     background-color: #1b9736;
 }
+
+.containerAlineacion{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 150px;
+    height: 600px;
+    /* justify-content: center; */
+    /* align-content: center; */
+    place-content: end;
+    justify-items: end;
+    align-items: start;
+}
+
+.itemAlineacion{
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
+
+.itemAlineacion-2{
+    justify-self: start;
+    align-self: end;
+}
+
+.containerAlineacionReto{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 150px 150px;
+    grid-auto-rows: 150px;
+    height: 400px;
+    place-content: Center;
+    place-items: end;
+}
+
+.itemAlineacionReto{
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
